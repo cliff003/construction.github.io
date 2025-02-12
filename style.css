@@ -1,0 +1,58 @@
+/* 全局样式 */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  /* 英雄区域标题和描述 */
+  .carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.25rem;
+  }
+  
+  /* 调整各部分标题样式 */
+  section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* 统一页面间距 */
+  section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  /* 自定义按钮样式 */
+  .btn-primary {
+    background-color: #5a381e; /* 深木色 */
+    border-color: #5a381e;
+  }
+  
+  .btn-primary:hover {
+    background-color: #7a4d2b;
+    border-color: #7a4d2b;
+  }
+  
+  /* 页脚样式 */
+  footer p {
+    margin: 0;
+  }
+  
+  /* 自适应地图 */
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
